@@ -1,0 +1,134 @@
+git config --global user.email "alexrog2412@gmail.com"
+git config --global user.name "alexrog369-alt"
+git config --list
+git remote add origin https://github.com/alexrog369-alt/AySO.git
+git init
+git remote add origin https://github.com/alexrog369-alt/AySO.git
+git remote -v
+echo "Hola Mundo" > mi_primer_archivo.txt
+ls
+git status
+git add .
+git status
+git add -A
+git status
+git commit -m "hello world, bye world"
+git push -u origin master
+git config --global user.email "257211728+alexrog369-alt@users.noreply.github.com"
+git commit --amend --reset-author --no-edit
+git push -u origin master
+vagrant suspend
+exit
+git status
+echo -e ".bash_history\n.gitconfig" > .gitignore
+git status
+echo -e ".bash_history\n.gitconfig" > .gitignore
+git status
+pwd
+ls
+cd repogit
+ls -a
+git@github.com:alexrog369-alt/TP_AySO.git
+git clone git@github.com:alexrog369-alt/TP_AySO.git
+cat ~/.ssh/id_rsa.pub
+ls -l ~/.ssh
+ssh-keygen
+cat ~/.ssh/id_rsa.pub
+ssh -T git@github.com
+git clone git@github.com:alexrog369-alt/TP_AySO.git
+ls
+cd TP_AySO
+git status
+ls -l
+cat /etc7passwd
+cat /etc/passwd
+grep "UBUNTU"/etc/passwd
+grep "UBUNTU" /etc/passwd
+grep "ubuntu" /etc/passwd
+grep "UBUNTU" /etc/passwd > datos_usuario.txt
+grep "ubuntu" /etc/passwd > datos_usuario.txt
+grep <parametro> Ubuntu /etc/passwd
+git status
+git add datos_usuarios.txt
+git add datso_usuario.txt
+git add datos_usuario.txt
+git status
+git commit -m "Archivo inicial, c/datos de usuario"
+grep "ubuntu" /etc/passwd | awk -F: '{print $2}' > datos_usuario.txt
+cat datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "filtro definitivo de contraseña con grep y awk"
+echo "usuario=$(whoami)" >> datos_usuario.txt
+echo "GitHub=alexrog369-alt" >> datos_usuario.txt
+cat datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "Filtrado de usuario y creacion de datos_usuario.txt Completado ;)"
+git push origin main
+grep "nombre de modelo" /proc/cpuinfo | head -n1 >> info_pc.txt
+git add info_pc.txt
+git commit -m "feat: Añadiendo informacion de CPU"
+git push origin main
+git status
+grep -v "nologin" /etc/passwd | head -n 10 | sort -t ':' -k 7 > lista_ordenada
+git commit -m "ADD: Listado de usuarios ordenada"
+git add lista_ordenada
+git commit -m "ADD: Listado de usuarios ordenada"
+cat lista_ordenada
+git status
+cat << EOF >> README.md cat << EOF >> README.md
+Alumno: Tu-Nombre
+División: Tu-División
+Turno: Tu-Turno
+
+cat << EOF >> README.md
+
+Alumno: Alexander
+
+División: 115
+
+Turno: Mañana
+
+
+cat << EOF >> README.md
+
+> Alumno: Alexander
+
+> División: 115
+
+> Turno: Mañana
+
+> EOF
+
+cat << EOF >> README.md
+Alumno: Alexander
+División: 115
+Turno: MAñana
+EOF
+
+cat README.md
+git add README.md
+git commit -m "docs: agregar información del alumno al README"
+git status
+git push origin main
+mkdir -p ~/TP1/{arquitectura/Clase{1..5},so/Clase{1..6}}
+tree ~/TP1
+ls -R ~/TP1
+cat << 'EOF' > script_dir.sh
+#!/bin/bash
+mkdir -p ~/TP1/{arquitectura/Clase{1..5},so/Clase{1..6}}
+EOF
+
+chmod +x script_dir.sh
+git add .
+git commit -m "ADD: Añadiendo script"
+git push origin main
+cat script_dir.sh
+ls -l script_dir.sh
+git status
+vagrant suspend
+exit
+ls
+cd repogit
+history -a
+#cp !"·$%&/())=?¿
+history -a
